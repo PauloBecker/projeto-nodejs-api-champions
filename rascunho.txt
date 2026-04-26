@@ -1,0 +1,18 @@
+
+{
+    "id": 81,
+    "name": "Zico",
+    "club": "Flamengo",
+    "position": "Forward",
+    "nationality": "Brasil",
+    "statistics": {
+      "overall": 100,
+      "pace": 100,
+      "shooting": 100,
+      "passing": 100,
+      "dribbling": 99,
+      "defending": 38,
+      "physical": 95
+    }
+    
+  }

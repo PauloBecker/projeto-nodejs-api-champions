@@ -1,0 +1,243 @@
+
+[
+    {
+        "id": 1,
+        "name": "Real Madrid",
+        "country": "Spain",
+        "league": "La Liga",
+        "stadium": "Santiago Bernabéu",
+        "founded": 1902
+    },
+    {
+        "id": 2,
+        "name": "Barcelona",
+        "country": "Spain",
+        "league": "La Liga",
+        "stadium": "Camp Nou",
+        "founded": 1899
+    },
+    {
+        "id": 3,
+        "name": "Manchester United",
+        "country": "England",
+        "league": "Premier League",
+        "stadium": "Old Trafford",
+        "founded": 1878
+    },
+    {
+        "id": 4,
+        "name": "Liverpool",
+        "country": "England",
+        "league": "Premier League",
+        "stadium": "Anfield",
+        "founded": 1892
+    },
+    {
+        "id": 5,
+        "name": "Bayern Munich",
+        "country": "Germany",
+        "league": "Bundesliga",
+        "stadium": "Allianz Arena",
+        "founded": 1900
+    },
+    {
+        "id": 6,
+        "name": "Paris Saint-Germain",
+        "country": "France",
+        "league": "Ligue 1",
+        "stadium": "Parc des Princes",
+        "founded": 1970
+    },
+    {
+        "id": 7,
+        "name": "Juventus",
+        "country": "Italy",
+        "league": "Serie A",
+        "stadium": "Allianz Stadium",
+        "founded": 1897
+    },
+    {
+        "id": 8,
+        "name": "Dortmund",
+        "country": "Germany",
+        "league": "Bundesliga",
+        "stadium": "Signal Iduna Park",
+        "founded": 1909
+    },
+    {
+        "id": 9,
+        "name": "Chelsea",
+        "country": "England",
+        "league": "Premier League",
+        "stadium": "Stamford Bridge",
+        "founded": 1905
+    },
+    {
+        "id": 10,
+        "name": "Inter Milan",
+        "country": "Italy",
+        "league": "Serie A",
+        "stadium": "San Siro",
+        "founded": 1908
+    },
+    {
+        "id": 11,
+        "name": "Atletico Madrid",
+        "country": "Spain",
+        "league": "La Liga",
+        "stadium": "Wanda Metropolitano",
+        "founded": 1903
+    },
+    {
+        "id": 12,
+        "name": "AC Milan",
+        "country": "Italy",
+        "league": "Serie A",
+        "stadium": "San Siro",
+        "founded": 1899
+    },
+    {
+        "id": 13,
+        "name": "Arsenal",
+        "country": "England",
+        "league": "Premier League",
+        "stadium": "Emirates Stadium",
+        "founded": 1886
+    },
+    {
+        "id": 14,
+        "name": "Tottenham Hotspur",
+        "country": "England",
+        "league": "Premier League",
+        "stadium": "Tottenham Hotspur Stadium",
+        "founded": 1882
+    },
+    {
+        "id": 15,
+        "name": "AS Roma",
+        "country": "Italy",
+        "league": "Serie A",
+        "stadium": "Stadio Olimpico",
+        "founded": 1927
+    },
+    {
+        "id": 16,
+        "name": "Porto",
+        "country": "Portugal",
+        "league": "Primeira Liga",
+        "stadium": "Estádio do Dragão",
+        "founded": 1893
+    },
+    {
+        "id": 17,
+        "name": "Ajax",
+        "country": "Netherlands",
+        "league": "Eredivisie",
+        "stadium": "Johan Cruyff Arena",
+        "founded": 1900
+    },
+    {
+        "id": 18,
+        "name": "Benfica",
+        "country": "Portugal",
+        "league": "Primeira Liga",
+        "stadium": "Estádio da Luz",
+        "founded": 1904
+    },
+    {
+        "id": 19,
+        "name": "Galatasaray",
+        "country": "Turkey",
+        "league": "Süper Lig",
+        "stadium": "Türk Telekom Stadium",
+        "founded": 1905
+    },
+    {
+        "id": 20,
+        "name": "PSV Eindhoven",
+        "country": "Netherlands",
+        "league": "Eredivisie",
+        "stadium": "Philips Stadion",
+        "founded": 1913
+    },
+    {
+        "id": 21,
+        "name": "Shakhtar Donetsk",
+        "country": "Ukraine",
+        "league": "Ukrainian Premier League",
+        "stadium": "Donbass Arena",
+        "founded": 1936
+    },
+    {
+        "id": 22,
+        "name": "Olympique Lyonnais",
+        "country": "France",
+        "league": "Ligue 1",
+        "stadium": "Groupama Stadium",
+        "founded": 1950
+    },
+    {
+        "id": 23,
+        "name": "Marseille",
+        "country": "France",
+        "league": "Ligue 1",
+        "stadium": "Stade Vélodrome",
+        "founded": 1899
+    },
+    {
+        "id": 24,
+        "name": "Valencia",
+        "country": "Spain",
+        "league": "La Liga",
+        "stadium": "Mestalla Stadium",
+        "founded": 1919
+    },
+    {
+        "id": 25,
+        "name": "Sevilla",
+        "country": "Spain",
+        "league": "La Liga",
+        "stadium": "Ramón Sánchez Pizjuán Stadium",
+        "founded": 1890
+    },
+    {
+        "id": 26,
+        "name": "Villarreal",
+        "country": "Spain",
+        "league": "La Liga",
+        "stadium": "Estadio de la Cerámica",
+        "founded": 1923
+    },
+    {
+        "id": 27,
+        "name": "Lazio",
+        "country": "Italy",
+        "league": "Serie A",
+        "stadium": "Stadio Olimpico",
+        "founded": 1900
+    },
+    {
+        "id": 28,
+        "name": "Fenerbahçe",
+        "country": "Turkey",
+        "league": "Süper Lig",
+        "stadium": "Şükrü Saracoğlu Stadium",
+        "founded": 1907
+    },
+    {
+        "id": 29,
+        "name": "Bayer Leverkusen",
+        "country": "Germany",
+        "league": "Bundesliga",
+        "stadium": "BayArena",
+        "founded": 1904
+    },
+    {
+        "id": 30,
+        "name": "Eintracht Frankfurt",
+        "country": "Germany",
+        "league": "Bundesliga",
+        "stadium": "Commerzbank-Arena",
+        "founded": 1899
+    }
+]
