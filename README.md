@@ -21,6 +21,8 @@ A API foi estruturada para separar responsabilidades, facilitando a manutenção
 ```
 champions-league-api/
 ├── src/
+│   ├── assets/           # Imagens e logos para documentação
+│   │   └── logo.png
 │   ├── controllers/
 │   │   ├── players-controller.ts
 │   │   └── clubs-controller.ts
@@ -40,10 +42,12 @@ champions-league-api/
 │   └── routes.ts         # Definição de todas as rotas da API
 ├── dist/                 # Arquivos compilados em JS (gerado após o build)
 ├── node_modules/         # Dependências do projeto
+├── .env                  # Variáveis de ambiente
 ├── .gitignore            # Arquivos ignorados pelo Git
 ├── package.json          # Scripts e dependências
 ├── package-lock.json     # Trava de versões das dependências
 └── tsconfig.json         # Configurações do TypeScript
+
 ```
 
 ## 🚀 🛠️ Tecnologias e Ferramentas
