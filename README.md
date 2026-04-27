@@ -1,3 +1,8 @@
+<div align="center">
+<img src="./src/assets/logo-chap1-rem.png" width="450px">
+  <h1>🏆 Champions League API</h1>
+</div>
+
 ## ⚽ Champions League API (Node.js & Express)
 
 Este projeto foi desenvolvido a partir da videoaula "Recriando a API da Champions League com Node.js e Express". O objetivo principal foi colocar em prática conceitos de desenvolvimento back-end, utilizando TypeScript e seguindo uma arquitetura profissional em camadas (N-Layers).
@@ -49,6 +54,37 @@ champions-league-api/
 *   [Nodemon](https://nodemon.io) (Ambiente de desenvolvimento)
 *   **JSON** como banco de dados local.
 
+## ⚙️ Configurações do Projeto
+Abaixo, os arquivos essenciais para o funcionamento do ambiente e do compilador:
+
+.env
+
+Arquivo responsável pelas variáveis de ambiente (como a porta do servidor).
+```
+env
+
+PORT=3333
+```
+.gitignore
+
+Utilizado para evitar que arquivos desnecessários ou sensíveis sejam enviados para o GitHub.
+
+```
+node_modules/
+dist/
+.env
+```
+tsconfig.json
+
+Arquivo de configuração do TypeScript, definindo como o código deve ser transpilado para JavaScript. 
+Os principais pontos configurados são:
+```
+    Target: ES6
+    Module: CommonJS
+    OutDir: ./dist
+    rootDir: ./src
+    Strict Mode: Ativado para maior segurança no código.
+```  
 ## 🛣️ Endpoints da API
 Método	Rota	Descrição
 GET	/api/players/list	Lista todos os jogadores
@@ -57,6 +93,17 @@ POST	/api/players	Adiciona um novo jogador
 DELETE	/api/players/:id	Remove um jogador
 PATCH	/api/players/:id	Atualiza dados de um jogador
 GET	/api/clubs/list	Lista todos os clubes
+
+##   ⚡ Scripts do Projeto
+Adicione ou utilize os comandos abaixo configurados no seu package.json:
+json
+
+"scripts": {
+    "dist": "tsup src",
+    "start:dev": "tsx --env-file=.env src/server.ts",
+    "start:watch": "tsx watch --env-file=.env src/server.ts",
+    "start:dist": "npm run dist && node dist/server.js"
+}
 
 ## 🔧 Como Executar
 
@@ -80,3 +127,7 @@ GET	/api/clubs/list	Lista todos os clubes
 
     npm run start:dev
 
+
+
+## ⚖️📄 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes. 🚨🔎
